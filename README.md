@@ -71,6 +71,6 @@ Para meter una lista dentro de otra, utilizamos la tabulación.
 
 Para añadir una imágen, hemos de dar una descripción y el nombre de la images (con la ruta, si hiciera falta).
 
-!(Josuè Sallent Ribas) (Josue.jpg)
+!(Josuè Sallent Ribas)(Josue.jpg)
 
 La sintaxis es: exclamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre paréntesis (sin espacios entre exclamación, llaves anguladas y paréntesis).
