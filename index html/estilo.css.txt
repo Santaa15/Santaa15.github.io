@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+	color: #ffffff;
+}
+
+header nav a {
+	color: #dddddd;
+	display:block;
+	padding:8px;
+	text-decoration:none;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+h1 {
+	margin;0:
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+nav {
+	background-color:red;
+	width:128px;
+	padding:32px;
+	margin:32px;
+}
+
+p {
+	border: 4px dotted yellow;
+}
+
+ul {
+	list-style: none;
+	padding:0;
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: #ffffff;
+	border-top: 4px solid #000000;
+}
+
+footer p {
+	margin:0;
+	padding:32px 0 32px 0;
+}
+
+main {
+	border: 4px ridge #ffffff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+main a {
+	text-decoration: none;
+	color: #ffffff;
+	transition: font-size 0.3s, font-style 0.3s;
+}
+
+main a:hover {
+	font-size: 1.2em;
+	font-style: italic;
+}

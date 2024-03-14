@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mi fantástica página</title>
+	</head>
+	<body>
+		<header>
+			<h1>Adivina el numero</h1>
+		</header>
+		<main>
+				<p>Adivina el numero entre 1 i 100</p>
+				<p id="mensaje"><em>Haz click</em>
+				<p><label for="numero">Numero:</label><input type="number" name="numero" id="numero" /></p>
+				<p><input type="button" value="Adivina!" id="adivina" /></p>
+			<script>
+				let numero_random = Math.floor(Math.random()*100) + 1;
+				let adivina = document.getElementById("adivina");
+				adivina.addEventListener("click", function(event) {
+					console.log("click");
+				
+					const numero = document.getElementById("numero").value;
+				
+					let mensaje = document.getElementById("mensaje");
+				
+					if (numero === ""){
+						console.log("Has de introducir un numero");
+						mensaje.innerHTML = "Haz de introducir un numero";
+						return;
+					}
+					
+					if (numero > numero_random){
+						console.log("El numero a adivinar es menor");
+						mensaje.innerHTML = "El numero a adivinar es menor";
+					}
+					
+					else if (numero < numero_random) {
+						console.log("El numero a adivinar es mayor");
+						mensaje.innerHTML = "EL numero a adivinar es mayor";
+					}
+					
+					else{
+						console.log("Has ganado");
+						mensaje.innerHTML = "Has ganado";
+					}
+				
+				});
+			</script>
+		</main>
+	</body>
+</html>
+
