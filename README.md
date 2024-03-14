@@ -77,4 +77,4 @@ La sintaxis es: exclamación seguido de una descripción dentro de llaves angula
 
 ### Enlaces
 
-Los enlaces son parecidos a las imagenes, la diferencia es que no llevan exclación delante y se pueden introducir dentro de frases [hola k ase](https://enti.cat)
+Los enlaces son parecidos a las imagenes, la diferencia es que no llevan exclamación delante y se pueden introducir dentro de frases [hola k ase](https://enti.cat)
