@@ -74,3 +74,7 @@ Para añadir una imágen, hemos de dar una descripción y el nombre de la images
 ![Josuè Sallent Ribas](Josue.jpg)
 
 La sintaxis es: exclamación seguido de una descripción dentro de llaves anguladas, seguido de el nombre de la imagen entre paréntesis (sin espacios entre exclamación, llaves anguladas y paréntesis).
+
+### Enlaces
+
+Los enlaces son parecidos a las imagenes, la diferencia es que no llevan exclación delante y se pueden introducir dentro de frases [hola k ase](https://enti.cat)
