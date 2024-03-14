@@ -88,5 +88,5 @@ Los bloques de cita nos ayudan a destacar el código o frases de manera especial
 Para la cita, se utiliza el símbolo mayor que seguido de un espacio.
 
 > Esto es una cita
-> COn múltiples **líneas**
+> Con múltiples **líneas**
 > > Esto es una cita dentro de otra 
