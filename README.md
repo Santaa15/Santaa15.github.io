@@ -61,8 +61,8 @@ Las listas anidadas son listas dentro de listas.
 2. Esto es el segundo
     1. Esto es el elemento 2.1.
     2. Esto es el 2.2.
-3. Esto es el teercer elemento
+3. Esto es el tercer elemento
     - Esto es una lista sin orden.
     - ...dentro de otra con orden.
 
-Para meter una lsita dentro de otra, utilizamos la tabulación.
+Para meter una lista dentro de otra, utilizamos la tabulación.
